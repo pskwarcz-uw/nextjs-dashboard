@@ -10,7 +10,7 @@ import {
 } from "@/app/ui/skeletons";
 
 export default async function Page() {
-  await new Promise((resolve) => setTimeout(resolve, 3000)); // while page is rendering loading.tsx will be shown
+  // await new Promise((resolve) => setTimeout(resolve, 3000)); // while page is rendering loading.tsx will be shown
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
