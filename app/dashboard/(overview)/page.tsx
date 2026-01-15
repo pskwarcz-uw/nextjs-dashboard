@@ -8,6 +8,11 @@ import {
   LatestInvoicesSkeleton,
   CardsSkeleton,
 } from "@/app/ui/skeletons";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+};
 
 export default async function Page() {
   // await new Promise((resolve) => setTimeout(resolve, 3000)); // while page is rendering loading.tsx will be shown
